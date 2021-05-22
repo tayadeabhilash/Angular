@@ -17,7 +17,7 @@
 ## Understanding the Hierarchical Injector
 <br>
 
-- ![hierarchy](./Capture.png)
+- ![hierarchy](./Capture.PNG)
 
 - To create a new instance of the service append the service to providers in @Components().
 
