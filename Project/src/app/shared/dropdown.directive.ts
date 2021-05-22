@@ -5,12 +5,11 @@ import { Directive, ElementRef, HostBinding, HostListener, Input, Renderer2 } fr
 })
 export class DropdownDirective {
 
-  //@HostBinding('class.open') open = false;
+  @HostBinding('class.open') open = false;
 
-  constructor(private elementRef: ElementRef) {
-   }
-  @HostListener('mouseclick') mouseclick(eventData: Event){
-    this.elementRef.nativeElement.classList.append('open');
+  constructor(private elementRef: ElementRef) { }
+  @HostListener('click') mouseclick(eventData: Event){
+    this.open = !this.open;
   }
 
 }
