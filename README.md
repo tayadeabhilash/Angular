@@ -1,2 +1,12 @@
 # Angular
-A repository for angular basics
+A repository for angular basics.
+
+
+
+
+
+
+
+
+
+
